@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | ELITE SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">ELITE<span>SHOP</span></a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart 🛒 <span id="cartCount">0</span></a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="cart-page">
+    <h1>My Shopping Cart</h1>
+
+    <div id="cartItems"></div>
+
+    <h2 id="cartTotal">Total: MWK 0</h2>
+
+    <button id="clearCart" class="add-cart">
+        Clear Cart
+    </button>
+
+    <a href="checkout.html" class="shop-button">
+        Proceed to Checkout
+    </a>
+</main>
+
+<footer class="footer">
+    <p>© 2026 ELITE SHOP. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | ELITE SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">ELITE<span>SHOP</span></a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="checkout-page">
+
+    <h1>Customer Checkout</h1>
+    <p>Enter your details to place your order.</p>
+
+    <div id="checkoutSummary"></div>
+
+    <form id="checkoutForm">
+
+        <label>Full Name</label>
+        <input type="text" id="customerName"
+            placeholder="Enter your full name" required>
+
+        <label>Phone Number</label>
+        <input type="tel" id="customerPhone"
+            placeholder="Enter phone number" required>
+
+        <label>Email Address</label>
+        <input type="email" id="customerEmail"
+            placeholder="Enter email address">
+
+        <label>Delivery Address</label>
+        <textarea id="customerAddress"
+            placeholder="Enter your delivery address"
+            required></textarea>
+
+        <label>Payment Method</label>
+        <select id="paymentMethod" required>
+            <option value="">Choose payment method</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+            <option value="Mobile Money">Mobile Money</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+        </select>
+
+        <button type="submit" class="add-cart">
+            Place Order
+        </button>
+
+    </form>
+
+    <div id="orderMessage"></div>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 ELITE SHOP. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

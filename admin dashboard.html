@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | ELITE SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">ELITE<span>SHOP</span></a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="admin-dashboard.html">Dashboard</a></li>
+            <li><a href="admin-orders.html">Orders</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="dashboard-page">
+
+    <h1>ELITE SHOP Dashboard</h1>
+    <p>Welcome to your store management dashboard.</p>
+
+    <section class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <h3>Total Orders</h3>
+            <p id="dashTotalOrders">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Total Revenue</h3>
+            <p id="dashRevenue">MWK 0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Pending</h3>
+            <p id="dashPending">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Processing</h3>
+            <p id="dashProcessing">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Shipped</h3>
+            <p id="dashShipped">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Delivered</h3>
+            <p id="dashDelivered">0</p>
+        </div>
+
+    </section>
+
+    <section class="recent-orders">
+        <h2>Recent Orders</h2>
+        <div id="recentOrders"></div>
+    </section>
+
+    <a href="admin-orders.html" class="shop-button">
+        Manage All Orders
+    </a>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 ELITE SHOP. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
